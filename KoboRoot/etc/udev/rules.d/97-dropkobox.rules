@@ -1,0 +1,3 @@
+KERNEL=="eth*", RUN+="/usr/local/dropkobox/udev_program.sh" 
+KERNEL=="wlan*", RUN+="/usr/local/dropkobox/udev_program.sh"
+KERNEL=="lo", RUN+="/usr/local/dropkobox/udev_mount.sh"
